@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&family=Dosis:wght@400;700&family=Lato:wght@400;700&family=Monda:wght@400;700&family=Montserrat&family=Open+Sans&family=Poppins:wght@400;600&family=Roboto&family=Saira+Condensed:wght@400;700&family=Source+Sans+Pro:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+}
+
+#main, #aside {
+    height:max-content;
+    background-image: linear-gradient(#f09b56, #ffe17de7);
+    margin: 0em;
+    margin-top: 50px;
+    padding: 2em;
+    justify-content: center;
+}
+
+h3, h4 {
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    margin: 70px;
+}
+
+h4 {
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+
+.navbar {
+    margin: 0;
+}
+.card-body {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.btn-custm {
+    border-radius: 50px;
+    --bs-btn-padding-y: .05rem; 
+    --bs-btn-padding-x: .4rem; 
+    --bs-btn-font-size: .80rem;
+}
+
+.geral {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* PÁGINAS DRINKS */
+#main-img {
+    max-width: 600px;
+    margin-top: 80px;
+    border-radius: 5%;
+    border-style: dashed;
+    border-width: 3px;
+}
+
+.aside {
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px rgb(186, 100, 100);
+}
+
+h2 {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.sec-img {
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(178, 93, 93);
+}
+
+.lists {
+    text-align: justify;
+    padding: 50px;
+}
+
+/*FOOTER*/
+#footer {
+    background-color: #212529;
+    height: 100px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.img-footer {
+    width: 24px;
+    padding: 0;
+    margin: 10px;
+}
+.footer-texto {
+    word-spacing: 2px;
+    margin: 0 20px 0 20px;
+}
+.gits {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
