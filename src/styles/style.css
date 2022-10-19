@@ -81,6 +81,10 @@ h2 {
     padding: 50px;
 }
 
+#card-text-center {
+    width: 10rem;
+}
+
 /*FOOTER*/
 #footer {
     background-color: #212529;
